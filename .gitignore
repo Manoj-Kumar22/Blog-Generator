@@ -9,3 +9,24 @@ wheels/
 # Virtual environments
 .venv
 /node_modules
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# API keys and configuration
+*.key
+*.pem
+config.ini
+secrets.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
